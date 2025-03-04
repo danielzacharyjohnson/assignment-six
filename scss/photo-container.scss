@@ -1,0 +1,53 @@
+@use "variables" as v;
+
+.photo-container {
+    height: v.$photo-container-height;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:20px;
+    background-color: burlywood;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/hero.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    .hero-header {
+        color: white;
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: absolute;
+        padding-top: 200px;
+
+    }
+
+    .center-text {
+        color: white;
+        justify-content: center;
+        flex-wrap: wrap;
+        position: absolute;
+        padding-top: 300px;
+
+    }
+
+    .button{
+        width: 122px;
+        height: 40px;
+        border: none;
+        margin-top: 350px;
+        color: v.$white-color;
+        background-color: #79ADDC;
+        
+
+    }
+
+    //.photo {
+    //    width: 300px;
+    //    height: 300px;
+    //    background-color: blue;
+
+    //}
+
+}

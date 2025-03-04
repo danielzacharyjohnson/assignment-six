@@ -1,0 +1,102 @@
+@use "variables" as v;
+
+.three-pics {
+    height: 304px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    position: absolute;
+    flex-wrap: wrap;
+
+    top: 470px;
+    gap: 100px;
+
+
+    .image-headers {
+        width: 300px;
+        position: absolute;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .pic {
+        
+        width: 236px;
+        height: 304px;
+        font-size: 10px;
+
+    }
+    .ISREAL{
+        width: 236px;
+        height: 304px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/tour-01.jpg);
+        color: v.$white-color;
+
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .USA{
+        width: 236px;
+        height: 304px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/tour-02.jpg);
+        color: v.$white-color;
+
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .AUSTRALIA{
+        width: 236px;
+        height: 304px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/tour-03.jpg);
+        color: v.$white-color;
+        
+        font-size: 30px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .button{
+        width: 122px;
+        height: 40px;
+        border: none;
+        margin-top: 150px;
+        color: v.$white-color;
+        background-color: #79ADDC;
+        border-radius: 20px;
+        
+
+    }
+
+}
+
+@media screen and (max-width: 940px) {
+    .photos {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+    }
+    
+}

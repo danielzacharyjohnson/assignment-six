@@ -1,0 +1,98 @@
+@use "variables";
+
+.booking-form { 
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+
+    .booking-header {
+        position: relative;
+        top: 350px;
+
+    }
+
+
+    input {
+        border: solid 1px variables.$baby-blue-color;
+        height: 58px;
+
+    }
+
+    .input-holder {
+        color: white;
+
+    }
+
+    .three-inputs {
+        position: relative;
+        //top: 1500px;
+        gap: 20px;
+        padding: 0 20px;
+        justify-content: space-evenly;
+        display: flex;
+        flex-wrap: wrap;
+
+        .group-size {
+            width: 103px;
+            height: 58px;
+
+        }
+
+    }
+
+    .middle-inputs {
+        position: relative;
+        gap: 20px;
+        padding: 0 20px;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        width: 100%;        
+
+    }
+
+    .lower-inputs {
+        position: relative;
+        gap: 20px;
+        padding: 0 20px;
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        //position: absolute;
+        width: 100%;
+
+        .message {
+            height: 200px;
+            width: 980px;
+            justify-content: center;
+
+        }
+
+        .button{
+            width: 100%;
+            height: 40px;
+            border: none;
+            margin-top: 150px;
+            color: variables.$white-color;
+            background-color: #79ADDC;
+            border-radius: 20px;
+            //position: absolute;
+            //top: 1750px;
+            
+    
+        }    
+
+    }
+
+}
+
+@media screen and (max-width: 940px) {
+    .booking-form {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+    }
+    
+}

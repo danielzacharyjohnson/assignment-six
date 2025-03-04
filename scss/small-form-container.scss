@@ -1,0 +1,45 @@
+@use "variables";
+
+.small-form-container {
+    width:980px;
+    height: 2000px;
+    margin: 0 auto;
+    display: flex;
+    
+    .middle-inputs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 0 20px;
+        justify-content: center;
+        position: absolute;
+        top: 1300px;
+
+        .checkin {
+            width: 720px;
+            height: 58px;
+
+        }
+
+    }
+
+    input {
+        border: solid 1px variables.$baby-blue-color;
+        height: 58px;
+
+    }
+
+    .input-holder {
+        color: white;
+
+    }
+
+    .checkin {
+        height:58px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        width: 698px;
+
+    }
+}

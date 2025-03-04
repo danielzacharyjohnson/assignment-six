@@ -1,0 +1,32 @@
+@use "variables";
+
+.footer {
+    height: 80px;
+    width: 100%;
+    background-color: variables.$baby-blue-color;
+    color: variables.$white-color;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1280px;
+    z-index: 99;
+    position: relative;
+    top: 1250px;
+    margin: 0 auto;
+    padding: 0 20px;
+
+
+    .logo {
+        width: 92px;
+        height: 42px;
+        padding-left: 150px;
+
+    }
+
+    .copyright {
+        text-align: center;
+        height: 42px;
+        padding-right: 150px;
+
+    }
+}

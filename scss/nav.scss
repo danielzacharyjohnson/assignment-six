@@ -1,0 +1,77 @@
+@use "variables";
+
+nav {
+  height: 90px;
+  //background-color: plum;
+  border-bottom: solid 2px variables.$white-color;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: fixed;
+  top: 0;
+  width: 1280px;
+  z-index: 99;
+
+  .logo {
+    width: 92px;
+    height: 42px;
+    padding-left: 150px;
+  }
+
+  .links {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 150px;
+
+    a {
+      text-decoration: none;
+      color: variables.$white-color;
+    }
+
+    .divide-bar {
+      color: variables.$baby-blue-color;
+      width: 980px;
+      height: 1px;
+    }
+  }
+}
+
+.nav-black {
+    height: 90px;
+    //background-color: plum;
+    border-bottom: solid 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: fixed;
+    top: 0;
+    width: 1280px;
+    z-index: 99;
+
+    .logo {
+      width: 92px;
+      height: 42px;
+      padding-left: 150px;
+    }
+
+    .links {
+      width: 700px;
+      display: flex;
+      justify-content: space-between;
+      padding-right: 150px;
+
+      a {
+        text-decoration: none;
+        color: black;
+      }
+
+      .divide-bar {
+        color: variables.$baby-blue-color;
+        width: 980px;
+        height: 1px;
+      }
+    }
+  }

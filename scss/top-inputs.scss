@@ -1,0 +1,33 @@
+@use "variables";
+
+.top-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0 20px;
+    justify-content: center;
+    position: relative;
+    //top: 1100px;
+
+    input {
+        border: solid 1px variables.$baby-blue-color;
+        height: 58px;
+
+    }
+
+    .input-holder {
+        color: white;
+
+    }
+
+    .small {
+        width: 344px;
+
+    }
+
+    .big {
+        width: 453px;
+
+    }
+
+}
